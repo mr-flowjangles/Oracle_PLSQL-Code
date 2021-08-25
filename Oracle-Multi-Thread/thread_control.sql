@@ -10,16 +10,4 @@ create table THREAD_CONTROL
   create_date      DATE,
   create_user      VARCHAR2(30),
   update_date      DATE,
-  update_user      VARCHAR2(30)
-)
-tablespace USERS2
-  pctfree 10
-  initrans 1
-  maxtrans 255
-  storage
-  (
-    initial 80K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+  update_user      VARCHAR2(30));
